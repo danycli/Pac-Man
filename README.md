@@ -22,7 +22,20 @@ The game includes:
 - Custom UI styling
 - Smooth movement system
 - Enemy AI behavior
-- Skins to buy with the collected diamonds
+
+## Features
+
+- In-Game Store: Collect diamonds during gameplay to purchase custom Pac-Man skins.
+- Custom Skins: Unlock unique cosmetic items including Multicolor, Undercover, Badass, Teeth, Female, and Pixelated.
+- Skin Collection: Access a dedicated menu to view and manage your unlocked items.
+- Persistent Save System: Your progress, diamond counts, and skin collections are automatically saved locally to your Windows AppData directory, ensuring you never lose your progress.
+- Custom UI & Aesthetics: Features a stylized interface utilizing a custom Minecrafter_Alt font and transparent, undecorated game windows for a modern arcade feel.
+
+## Architecture Highlights
+
+- UI Design: Built entirely with JavaFX, utilizing StackPane and Scene layouts to structure menus seamlessly.
+- Data Management: The SaveManager class handles file I/O operations dynamically, creating a dedicated PacMan folder in the system environment to read and write stats.txt and collection.txt.
+- Event Handling: Clean separation of UI elements and game logic, utilizing lambda expressions for efficient button actions and keyboard inputs.
 
 ---
 
