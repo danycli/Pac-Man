@@ -22,6 +22,7 @@ The game includes:
 - Custom UI styling
 - Smooth movement system
 - Enemy AI behavior
+- Skins to buy with the collected diamonds
 
 ---
 
@@ -90,6 +91,7 @@ Stored data includes:
 - Current Score
 - Total Diamonds
 - Player settings
+- Purchased Skins
 
 ## Built With
 
