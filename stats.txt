@@ -1,0 +1,3 @@
+Score = 0
+Total Diamonds = 0
+7Pac_Man_Favicon.png
